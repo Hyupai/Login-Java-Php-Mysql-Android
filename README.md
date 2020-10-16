@@ -83,7 +83,7 @@ Agora compile APK do jogo.
 
 Isso irá iniciar a tela de login e depois o jogo.
 
-![]https://i.imgur.com/wKOGApW.mp4[/img])
+![]https://i.imgur.com/wKOGApW.mp4)
 
 # Proteção na LIB
 
