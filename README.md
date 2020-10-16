@@ -43,7 +43,48 @@ Clique em **locate** para mostrar o local do **build.apk**.
 
 # Implementando seu projeto no jogo
 
+Agora decompile **app-debug.apk**.
 
+Copie seu smali app-debug.apk descompilado para a pasta smali do jogo. O nosso exemplo é com.example.loginform2, copiaríamos a pasta `com` de` (app-debug \ smali \ com) `para o diretório descompilado do jogo` (nome do jogo) \ smali`. Se o jogo tiver multidexes, adicione seu smali às últimas classes dex se possível para evitar erros de compilação.
+
+Na manifest do jogo `androidmanifest.xml`, fique claro `<uses-permission android:name="android.permission.INTERNET"/>`<br>`<uses-permission android:name="android.permission.INTERNET"/>` <br> existe.
+Caso não exista adicione-as.
+
+
+![](https://i.imgur.com/k0sLVUF.png)
+
+Remova `<action android:name="android.intent.action.MAIN"/>` desse jeito.
+
+![](https://i.imgur.com/z1RxPjc.png)
+
+Antes do fim da tag de Aplication, Adicione sua activity `</application>`. `com.example.loginform2.MainActivity` é sua activity principal.
+
+```xml
+<activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.example.loginform2.MainActivity" android:screenOrientation="portrait">
+     <intent-filter>
+         <action android:name="android.intent.action.MAIN"/>
+         <category android:name="android.intent.category.LAUNCHER"/>
+     </intent-filter>
+</activity>
+```
+
+![](https://i.imgur.com/X4b8jBV.png)
+
+Agora compile APK do jogo.
+
+Isso irá iniciar a tela de login e depois o jogo.
+
+gif
+
+# Proteção na LIB
+
+Veja `Main.cpp` por exemplo, como verificar se o usuário está logado
+
+Existem os códigos chamados `Check ()` e `loadLibrary`. Eles estão comentados
+
+Você pode precisar proteger seus arquivos dex e lib para isso.
+
+**Não recomendo fazer isso pelo AIDE**
 
 
 
