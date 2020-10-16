@@ -2,6 +2,9 @@
 Br: Eu estarei usando o meu idioma nativo para descrever esse projeto, então caso você não esteja entendendo nada que estou digitando, utilize o tradutor do seu navegador. Obrigado!<br></br>
 En: I'll be using my native language to describe this project, so if you don't understand anything I'm typing, use your browser's translator.  Thank you!
 
+Obrigado ao @LGL, pelo layout e templates!
+Obrigado a todos pelo apoio!
+
 **Esse login é apenas para um dispositivo. Muito utilizado em ModMenu VIPs, injete seu mod separadamente se for usar. NAO reponderei duvidas que podem ser resolvidas no Google.**
 
 # Programas necessários
@@ -10,10 +13,13 @@ En: I'll be using my native language to describe this project, so if you don't u
 - Um servidor web com suporte para PHP
 - Esse projeto
 
-Caso você não saiba fazer upload do server ou fazer um veja esse video:
+# Server
+Eu deixei ele em Zip, assim você pode upar em sua Host. Modifique como desejar a parte em Html.
+Crie seu banco de dados e faça sua conexão.
+
+Caso nao esteja entendendo essa parte eu ensinei um pouco nesse video:https://youtu.be/jAgDdB7gw7A
 
 # Editando seu projeto
-
 Primeiro de tudo modifique sua URLSERVER na **Auth.java**, verifique sempre o http(s).<br><br>
 ![](https://i.imgur.com/5q2IDZX.png)<br></br>
 Modifique também o layout se quiser na **MainActivity,java**, lembre-se que o título está em base 64 para evitar leechs.<br></br>
@@ -77,7 +83,7 @@ Agora compile APK do jogo.
 
 Isso irá iniciar a tela de login e depois o jogo.
 
-gif
+![](https://imgur.com/wKOGApW)
 
 # Proteção na LIB
 
