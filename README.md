@@ -20,11 +20,11 @@ Se você tiver usando o AIDE, verifique se o NDK está compilando corretamente a
 Agora,descubra a MainActivity do seu jogo.
 
 Utilize o Apk Tool para vê-la:
+
 ![](https://i.imgur.com/JQdPjyZ.png)
 
 Nesse caso está como `com.unity3d.player.UnityPlayerActivity`
 
-![](https://i.imgur.com/FfOtc1K.png)
 
 No android studio ou AIDE modifique a `public String sGameActivity` se necessário!
 
