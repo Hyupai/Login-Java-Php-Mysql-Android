@@ -20,7 +20,10 @@ Se você tiver usando o AIDE, verifique se o NDK está compilando corretamente a
 
 # Compilando seu projeto
 
-Vá em Build e depois em Build Apk.<br></<br>
+Vá em Build e depois em Build Apk.<br></br>
 Img<br></br>
+Clique em "locate".<br></br>
+Img
+
 
 
