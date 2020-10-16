@@ -47,7 +47,7 @@ Agora decompile **app-debug.apk**.
 
 Copie seu smali app-debug.apk descompilado para a pasta smali do jogo. O nosso exemplo é com.example.loginform2, copiaríamos a pasta `com` de` (app-debug \ smali \ com) `para o diretório descompilado do jogo` (nome do jogo) \ smali`. Se o jogo tiver multidexes, adicione seu smali às últimas classes dex se possível para evitar erros de compilação.
 
-Na manifest do jogo `androidmanifest.xml`, fique claro `<uses-permission android:name="android.permission.INTERNET"/>`<br>`<uses-permission android:name="android.permission.INTERNET"/>` <br> existe.
+Na manifest do jogo `androidmanifest.xml`, fique claro que as seguintes permissoes exista: <br>`<uses-permission android:name="android.permission.INTERNET"/>`<br>`<uses-permission android:name="android.permission.INTERNET"/>` <br>
 Caso não exista adicione-as.
 
 
