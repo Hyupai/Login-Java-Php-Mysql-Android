@@ -12,10 +12,10 @@ Caso você não saiba fazer upload do server ou fazer um veja esse video:
 
 # Editando seu projeto
 
-Primeiro de tudo modifique sua URLSERVER, verifique sempre o http(s).<br><br>
-Img<br></br>
-Modifique também o layout se quiser, lembre-se que o título está em base 64 para evitar leechs.<br></br>
-Img<br></br>
+Primeiro de tudo modifique sua URLSERVER na **Auth.java**, verifique sempre o http(s).<br><br>
+![]https://i.imgur.com/5q2IDZX.png<br></br>
+Modifique também o layout se quiser na **MainActivity,java**, lembre-se que o título está em base 64 para evitar leechs.<br></br>
+![]https://i.imgur.com/yb78gLU.png<br></br>
 Se você tiver usando o AIDE, verifique se o NDK está compilando corretamente a lib. (Eu tive problemas com isso)<br></br>
 Agora,descubra a MainActivity do seu jogo.
 
@@ -28,7 +28,7 @@ Nesse caso está como `com.unity3d.player.UnityPlayerActivity`
 
 No android studio ou AIDE modifique a `public String sGameActivity` se necessário!
 
-![](https://i.imgur.com/gstiBDk.png)
+![](https://i.imgur.com/KBBek2N.png)
 
 Construa seu apk:
 
