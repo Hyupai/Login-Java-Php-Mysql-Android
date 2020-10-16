@@ -13,9 +13,9 @@ Caso você não saiba fazer upload do server ou fazer um veja esse video:
 # Editando seu projeto
 
 Primeiro de tudo modifique sua URLSERVER na **Auth.java**, verifique sempre o http(s).<br><br>
-![]https://i.imgur.com/5q2IDZX.png<br></br>
+![](https://i.imgur.com/5q2IDZX.png)<br></br>
 Modifique também o layout se quiser na **MainActivity,java**, lembre-se que o título está em base 64 para evitar leechs.<br></br>
-![]https://i.imgur.com/yb78gLU.png<br></br>
+![](https://i.imgur.com/yb78gLU.png)<br></br>
 Se você tiver usando o AIDE, verifique se o NDK está compilando corretamente a lib. (Eu tive problemas com isso)<br></br>
 Agora,descubra a MainActivity do seu jogo.
 
@@ -47,7 +47,8 @@ Agora decompile **app-debug.apk**.
 
 Copie seu smali app-debug.apk descompilado para a pasta smali do jogo. O nosso exemplo é com.example.loginform2, copiaríamos a pasta `com` de` (app-debug \ smali \ com) `para o diretório descompilado do jogo` (nome do jogo) \ smali`. Se o jogo tiver multidexes, adicione seu smali às últimas classes dex se possível para evitar erros de compilação.
 
-Na manifest do jogo `androidmanifest.xml`, fique claro que as seguintes permissoes exista: <br>`<uses-permission android:name="android.permission.INTERNET"/>`<br>`<uses-permission android:name="android.permission.INTERNET"/>` <br>
+Na manifest do jogo `androidmanifest.xml`, fique claro que as seguintes permissoes exista: <br>`<uses-permission android:name="android.permission.INTERNET"/>`<br>`<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />`<br>
+`<uses-permission android:name="android.permission.FOREGROUND_SERVICE" />`<br>
 Caso não exista adicione-as.
 
 
