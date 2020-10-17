@@ -64,7 +64,8 @@ Caso não exista adicione-as.
 
 ![](https://i.imgur.com/k0sLVUF.png)
 
-Remova `<action android:name="android.intent.action.MAIN"/>` desse jeito.
+Agora localize a Activity Principal do jogo que você obteve anteriormente dentro da Android Manifest e depois remova:
+`<action android:name="android.intent.action.MAIN"/>` desse jeito.
 
 ![](https://i.imgur.com/z1RxPjc.png)
 
