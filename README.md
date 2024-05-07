@@ -5,7 +5,7 @@ En: I'll be using my native language to describe this project, so if you don't u
 Obrigado ao @LGL, pelo layout e templates!
 Obrigado a todos pelo apoio!
 
-Contatc Telegram @Hyupai
+Contact Telegram @samuel_fcr
 
 **Esse login é apenas para um dispositivo. Muito utilizado em ModMenu VIPs, injete seu mod separadamente se for usar. NAO reponderei duvidas que podem ser resolvidas no Google.**
 
